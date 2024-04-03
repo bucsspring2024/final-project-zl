@@ -5,7 +5,7 @@
 # << Project Title >>
 ## CS110 Final Project  << Semester, Year >>
 
-## Team Members
+## Zachary Latour
 
 << List team member names >>
 
