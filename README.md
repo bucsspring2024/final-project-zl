@@ -31,11 +31,40 @@
 
 ### Features
 
-1. << Feature 1 >>
-2. << Feature 2 >>
-3. << Feature 3 >>
-4. << Feature 4 >>
-5. << Feature 5 >>
+1. Test Case 1: Bird Jumping
+Test Description: Verify that the bird jumps when the player presses the spacebar.
+Test Steps:
+1.Start the game.
+2.Press the spacebar key.
+3.Observe the bird's upward movement.
+Expected Outcome: The bird should jump upwards in response to the spacebar input.
+2. Test Case 2: Pipe Generation
+Test Description: Ensure that pipes are generated and move from right to left on the screen.
+Test Steps:
+1.Start the game.
+2.Observe the pipes appearing on the screen and moving towards the bird.
+Expected Outcome: Pipes should continuously spawn and scroll from right to left.
+3. Test Case 3: Collision Detection
+Test Description: Confirm that the game detects collisions between the bird and pipes.
+Test Steps:
+1.Start the game.
+2.Position the bird to collide with a pipe.
+3.Observe the game's reaction to the collision.
+Expected Outcome: The game should register a collision when the bird hits a pipe.
+4. Test Case 4: Scoring
+Test Description: Validate that the game increments the score when the bird successfully passes through pipes.
+Test Steps:
+1.Start the game.
+2.Guide the bird through a gap between two pipes.
+3.Check the displayed score.
+Expected Outcome: The score should increase each time the bird successfully navigates through a pair of pipes.
+5. Test Case 6: Restart Game
+Test Description: Test the functionality to restart the game after a game over.
+Test Steps:
+1.Start the game.
+2.Play until the game ends (bird collides or hits the ground).
+3.Click the restart button or press a key to restart.
+Expected Outcome: The game should reset all game elements and allow the player to start a new game.
 
 ### Classes
 

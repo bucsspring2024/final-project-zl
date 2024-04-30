@@ -1,6 +1,6 @@
 import pygame
-from bird import Bird
-from pipe import Pipe
+from src.bird import Bird
+from src.pipe import Pipe
 
 class Controller:
     def __init__(self):
