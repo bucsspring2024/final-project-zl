@@ -1,12 +1,8 @@
-import pygame
-from src.controller import Controller
+from src.controller.controller import SnakeGameController
 
 def main():
-    pygame.init()
-    
-def main():
-    controller = Controller()
-    controller.main_loop()
+    controller = SnakeGameController()
+    controller.run()
     
     ###### NOTHING ELSE SHOULD GO IN main(), JUST THE ABOVE 3 LINES OF CODE ######
 
